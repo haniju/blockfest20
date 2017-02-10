@@ -24,13 +24,15 @@
 <body style="color:white">
 
 	<div class="nav-bar" style="background-color:white">
-		<img src="img/blocs/black/bloc20-40.svg" style="height:35px; width:auto; margin: 2px 5px 2px 20px;">
-		<div class="small-logo-slice" style="color:black">
-			<h4>Le BlockFest 2.0</h4>
+		<div class="half-slice" style="flex-direction:row">
+			<img src="img/blocs/black/bloc20-40.svg" style="height:35px; width:auto; margin: 2px 0px 2px 20px;">
+			<div class="small-logo-slice" style="color:black">
+				<h4>Le BlockFest 2.0</h4>
+			</div>
 		</div>
 	</div>
 
-	<div id="container" class="violet"><!--class defines background-color
+	<div id="container" class="night"><!--class defines background-color
 		-> other classes : "purple" or "lemon" or "raspberry" or "green" or "night"-->
 
 		<div class="bigBox" style="margin-top:75px; border-color: white;">
@@ -59,7 +61,7 @@ espace-temps de construction collective, accueillant et fertile. </h3>
 		</div>
 
 		<div class="regBox" style="border-color: white">
-			<div id="box-band" class="averia">
+			<div id="box-band" class="unica">
 				<h1> Au programme </h1>
 			</div>
 			<div class="regBox-hslice">
@@ -106,14 +108,14 @@ espace-temps de construction collective, accueillant et fertile. </h3>
 		</div>
 
 		<div class="regBox" style="border-color: white">
-			<div id="box-band" class="averia">
+			<div id="box-band" class="unica">
 				<h1> Explorer 3 grandes technologies </h1>
 			</div>
 			<h2> This is a test </h2>
 		</div>
 
 		<div class="regBox" style="border-color: white">
-			<div id="box-band" class="averia">
+			<div id="box-band" class="unica">
 				<h1> Qu'est-ce qui nous anime ? </h1>
 			</div>
 			<div class="regBox-hslice" style="margin-top:25px; margin-bottom:25px;">
@@ -170,26 +172,44 @@ espace-temps de construction collective, accueillant et fertile. </h3>
 		</div>
 
 		<div class="listBox" style="border-color: white">
-			<div id="box-band" class="averia">
+			<div id="box-band" class="unica">
 				<h1> Les organisateurs, intervenants et mentors </h1>
 			</div>
 			<div class="profil-slice">
 				<div class="imgBox">
-					<img src="img/profil1.png">
+					<img src="img/profile1.jpg" class="small">
 				</div>
 				<div class="regBox-vslice" style="margin-left:15px">
-					<div class="regBox-hslice">
+					<div class="regBox-hslice" style="justify-content:flex-start">
 						<img src="img/pictos/mentor.svg" style="width:25px; margin:unset; margin-right:10px"><h3>Name</h3>
 					</div>
 					<p>line 1</p>
 					<p>line 2</p>
 				</div>
 			</div>
-
+			<div class="profil-slice">
+				<div class="imgBox">
+					<img src="img/profile1.jpg" class="small">
+				</div>
+				<div class="regBox-vslice" style="margin-left:15px">
+					<div class="regBox-hslice" style="justify-content:flex-start">
+						<img src="img/pictos/mentor.svg" style="width:25px; margin:unset; margin-right:10px"><h3>Name</h3>
+					</div>
+					<p>line 1</p>
+					<p>line 2</p>
+				</div>
+			</div>
 		</div>
 
-		<h1> Les sponsors du BlockFest </h1>
+		<div id="button" class="unica">
+			Acheter mes billets en early bird
+		</div>
+
 		<div class="listBox" style="border:unset">
+			<div id="box-band" class="unica">
+				<h1> Les sponsors du BlockFest </h1>
+			</div>
+
 			<div class="medium-logo-slice">
 				test
 			</div>
