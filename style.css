@@ -9,7 +9,7 @@ body {
 }
 @media all and (max-width: 800px) and (min-width: 50px) {
 	h1 {
-		font-size: 20px !important;
+		font-size: 25px !important;
 	}
 	h2 {
 		font-size: 17px !important;
@@ -17,9 +17,17 @@ body {
 	h3 {
 		font-size: 16px !important;
 	}
-	.bigBox-title {
-		font-size: 9vw !important;
-		letter-spacing: -0.9px !important;
+	#small-logo-slice.unica {
+		font-size: 17px !important;
+	}
+	#small-logo-slice.inconsolata {
+		font-size: 20px !important;
+	}
+	#bigBox-title.unica {
+		font-size: 12vw !important;
+	}
+	#bigBox-title.inconsolata{
+		font-size: 10vw;
 	}
 	.bigBox {
 		width: 90vw !important;
@@ -47,7 +55,6 @@ body {
 		margin: 0px 7px 0px 7px !important;
 	}
 	.picto-slice {
-		margin-top: 15px !important;
 	}
 	.regBox-vslice {
 		width: unset !important;
@@ -172,16 +179,23 @@ img.small{
 }
 .imgBox {
 	width: 100px;
+	background-color: black;
 }
 /*"slices" = childrens*/
-.small-logo-slice {
+#small-logo-slice {
 	display: flex;
 	flex-wrap: nowrap;
 	text-align: left;
 	margin-left: 10px;
-
+}
+#small-logo-slice.unica {
 	font-family: 'Unica One', cursive;
+	font-size: 25px;}
+#small-logo-slice.inconsolata {
+	font-family: 'Inconsolata', cursive;
+	font-weight: 700;
 	font-size: 25px;
+}
 	/*font-family: 'Patrick Hand', cursive;
 	font-size: 130px;
 	text-transform: uppercase;
@@ -207,16 +221,25 @@ img.small{
 	font-family: 'Averia Serif Libre', cursive;
 	font-size: 105px;
 	text-transform: uppercase;*/
-}
-.bigBox-title {
+
+#bigBox-title {
 	display: flex;
 	justify-content: center;
 	padding: 15px 20px 15px 20px;
 	width: 100%;
 	text-align: center;
-
+}
+#bigBox-title.unica {
 	font-family: 'Unica One', cursive;
-	font-size: 140px;
+	font-size: 11vw;
+}
+#bigBox-title.inconsolata {
+	font-family: 'inconsolata', cursive;
+	font-size: 9vw;
+	letter-spacing: 5.5px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+}
 	/*font-family: 'Patrick Hand', cursive;
 	font-size: 130px;
 	text-transform: uppercase;
@@ -243,7 +266,7 @@ img.small{
 	/*font-family: 'Averia Serif Libre', cursive;
 	font-size: 105px;
 	text-transform: uppercase;*/
-}
+
 .bigBox-subtitle {
 	width: 100%;
 	margin: auto;
@@ -261,6 +284,7 @@ img.small{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: black;
 }
 .half-slice {
 	width: 50%;
@@ -285,7 +309,7 @@ img.small{
 	flex-wrap: wrap;
 	flex-direction: row;
 	width: 100%;
-	margin: 30px 0px 15px 0px;
+	margin: 40px 0px 15px 0px;
 	justify-content: center !important;
 }
 .caption-slice{
@@ -361,6 +385,12 @@ img.small{
 	font-family: 'Unica One', cursive;
 	font-size: 20px;
 }
+#box-band.inconsolata{
+	font-family: 'inconsolata', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
 #button {
 	text-align: center;
 	padding: 15px 15px 15px 15px;
@@ -376,6 +406,10 @@ img.small{
 }
 #button.unica{
 	font-family: 'Unica One', cursive;
+	font-size: 20px;
+}
+#button.inconsolata{
+	font-family: 'Inconsolata', cursive;
 	font-size: 20px;
 }
 .transition{
