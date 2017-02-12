@@ -1,5 +1,5 @@
 body {
-	width: 100vw;
+	max-width: 100vw;
 	color: black;
 	margin: auto;
 }
@@ -105,7 +105,7 @@ img.small{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 100vw;
+	width: 100%;
 	height: 45px;
 	margin: auto;
 	position: fixed;
@@ -117,7 +117,7 @@ img.small{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: 100vw;
+	max-width: 100vw;
 	margin: auto;
 }
 #container.mint {
@@ -179,7 +179,6 @@ img.small{
 }
 .imgBox {
 	width: 100px;
-	background-color: black;
 }
 /*"slices" = childrens*/
 #small-logo-slice {
@@ -278,13 +277,13 @@ img.small{
 	display: flex;
 	flex-direction: row;
 	width: 100%;
+	background-color: black;
 }
 .pic-slice{
 	max-width: 50%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: black;
 }
 .half-slice {
 	width: 50%;
@@ -391,7 +390,20 @@ img.small{
 	font-weight: 400;
 	letter-spacing: 1.5px;
 }
-#button {
+.button-nav {
+	display:flex;
+	align-items:center;
+	padding: 0px 10px 0px 10px;
+	height:45px
+}
+a {
+	text-decoration: none;
+	color: unset;
+}
+a :hover{
+	background-color: grey;
+}
+#button-b {
 	text-align: center;
 	padding: 15px 15px 15px 15px;
 	margin: auto;
@@ -403,14 +415,47 @@ img.small{
 		rgba(0 ,0, 0, 0.1) 2px,
 		rgba(0 ,0, 0, 0.1) 10px
 	);
+	border-style: dotted;
+	border-width: 2px;
+	border-color: rgba(0, 0, 0, 0);
 }
-#button.unica{
+#button-b:hover {
+	border-style: dotted;
+	border-width: 2px;
+	border-color: black;
+}
+#button-w {
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+	margin: auto;
+	margin-bottom: 28px;
+	background: repeating-linear-gradient(
+		50deg,
+		rgba(255 ,255, 255, 0),
+		rgba(0 ,0, 0, 0) 2px,
+		rgba(255 ,255, 255, 0.1) 2px,
+		rgba(255 ,255, 255, 0.1) 10px
+	);
+	border-style: dotted;
+	border-width: 2px;
+	border-color: rgba(0, 0, 0, 0);
+}
+button{
+	border: unset;
+}
+#button-w:hover {
+	border-style: dotted;
+	border-width: 2px;
+	border-color: white;
+}
+#button-b.unica{
 	font-family: 'Unica One', cursive;
 	font-size: 20px;
 }
-#button.inconsolata{
+#button-w.inconsolata{
 	font-family: 'Inconsolata', cursive;
-	font-size: 20px;
+	font-size: 25px;
+	letter-spacing: 1.7px;
 }
 .transition{
 	height:50px;
