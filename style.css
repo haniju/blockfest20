@@ -138,6 +138,12 @@ img.small{
 #container.violet {
 	background-color: #a24dff;
 }
+#container.dark {
+	background-color: black;
+}
+#container.bright {
+	background-color: white;
+}
 /* "boxes" = parents */
 .bigBox {
 	width: 80vw;
@@ -395,14 +401,25 @@ img.small{
 	align-items:center;
 	padding: 0px 10px 0px 10px;
 	height:45px
+	border-style: dotted;
+	border-width: 2px;
+	border-color: rgba(0, 0, 0, 0);
+}
+.button-nav:hover{/*
+	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;*/
+	border-style: dotted;
+	border-width: 2px;
+	border-color: white;
 }
 a {
 	text-decoration: none;
 	color: unset;
 }
-a :hover{
+/*a :hover{
 	background-color: grey;
-}
+}*/
 #button-b {
 	text-align: center;
 	padding: 15px 15px 15px 15px;
