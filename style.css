@@ -138,14 +138,7 @@ img.small{
 	background-color: #a24dff;
 	color: white;
 }
-#container.dark, body {
-	background-color: black;
-	color: white;
-}
-#container.bright, body {
-	background-color: white;
-	color: black;
-}
+
 #nav-bar {
 	display: flex;
 	flex-wrap: wrap;

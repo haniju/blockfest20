@@ -23,9 +23,9 @@
 
 	<body ng-app="blockfest" ng-controller="main">
 
-		<div id="nav-bar" class="dark" ng-include="'nav.html'"></div>
+		<div id="nav-bar" class="{{tone}}" ng-include="'nav.html'"></div>
 
-		<div id="container" class="green"><!--class defines background-color
+		<div id="container" class="{{color}}"><!--class defines background-color
 			-> other classes : "violet" or "lemon" or "raspberry" or "green" or "night"-->
 
 			<div ng-include="'flyer.html'"></div>
