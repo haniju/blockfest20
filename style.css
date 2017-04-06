@@ -1,10 +1,14 @@
 body {
 	max-width: 100vw;
 	margin: auto;
+	overflow-y: auto;
 }
 
 /*responsive settings*/
 @media all and (min-width: 1500px) {
+	.bigBox {
+		width: 60vw !important;
+	}
 }
 @media all and (max-width: 1499px) and (min-width: 600px) {
 }
@@ -36,7 +40,6 @@ body {
 	}
 	.regularBox {
 		width: 85vw !important;
-		margin-bottom: 10px !important;
 	}
 	.listBox {
 		width: 90vw !important;
@@ -214,16 +217,7 @@ img.small{
 */
 
 /* level-1 chlidren */
-.bigBox {
-	width: 80vw;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	border-style: solid;
-	border-width: 2px;
-	border-color: black;
-	margin-bottom: 45px;
-}
+
 .regularBox {
 	width: 70vw;
 	font-family: monospace;
@@ -271,99 +265,7 @@ img.small{
 	font-weight: 700;
 	font-size: 25px;
 }
-	/* parallel settings
-	font-family: 'Patrick Hand', cursive;
-	font-size: 130px;
-	text-transform: uppercase;
-	letter-spacing: 5.5px;*/
-	/*font-family: 'Squada One', cursive;
-	font-size: 130px;
-	text-transform: uppercase;
-	letter-spacing: 5.5px;*/
-	/*font-family: 'Oleo Script', cursive;
-	font-size: 130px;
-	letter-spacing: 3px;*/
-	/*font-family: 'Londrina Solid', cursive;
-	font-size: 130px;
-	letter-spacing: 3px;*/
-	/*font-family: 'Graduate', cursive;
-	font-size: 105px;
-	text-transform: uppercase;*/
-	/*font-family: 'Bungee Shade', cursive;
-	font-size: 85px;
-	letter-spacing: -3.9px;
-	font-family: 'Bungee Inline', cursive;
-	font-size: 17px;
-	font-family: 'Averia Serif Libre', cursive;
-	font-size: 105px;
-	text-transform: uppercase;*/
 
-/* There is no class for bigBox-title, no need */
-#bigBox-title {
-	display: flex;
-	justify-content: center;
-	padding: 15px 20px 15px 20px;
-	width: 100%;
-	text-align: center;
-}
-#bigBox-title.unica {
-	font-family: 'Unica One', cursive;
-	font-size: 11vw;
-}
-#bigBox-title.inconsolata {
-	font-family: 'inconsolata', cursive;
-	font-size: 9vw;
-	letter-spacing: 5.5px;
-	font-weight: 700;
-	letter-spacing: 1.5px;
-}
-	/*font-family: 'Patrick Hand', cursive;
-	font-size: 130px;
-	text-transform: uppercase;
-	letter-spacing: 5.5px;*/
-	/*font-family: 'Squada One', cursive;
-	font-size: 130px;
-	text-transform: uppercase;
-	letter-spacing: 5.5px;*/
-	/*font-family: 'Oleo Script', cursive;
-	font-size: 130px;
-	letter-spacing: 3px;*/
-	/*font-family: 'Londrina Solid', cursive;
-	font-size: 130px;
-	letter-spacing: 3px;*/
-	/*font-family: 'Graduate', cursive;
-	font-size: 105px;
-	text-transform: uppercase;*/
-	/*font-family: 'Bungee Shade', cursive;
-	font-size: 85px;
-	letter-spacing: -3.9px;
-	font-family: 'Bungee Inline', cursive;
-	font-size: 105px;
-	letter-spacing: -3.9px;
-	/*font-family: 'Averia Serif Libre', cursive;
-	font-size: 105px;
-	text-transform: uppercase;*/
-
-.bigBox-subtitle {
-	width: 100%;
-	margin: auto;
-	padding: 10px 0px 10px 0px;
-	text-align: center;
-	background-color: black;
-}
-
-.pics-slice {
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	background-color: black;
-}
-.pic-slice{
-	max-width: 50%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
 .half-slice {
 	width: 50%;
 	display: flex;
@@ -371,6 +273,7 @@ img.small{
 	align-items: center;
 	padding: 0px 20px 0px 20px;
 }
+
 .regularBox-hslice {
 	width: 100%;
 	display: flex;
