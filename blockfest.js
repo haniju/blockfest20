@@ -3,6 +3,7 @@ angular.module("blockfest", []);
 angular.module("blockfest").controller
 ("main", [ "$scope", function ($scope) {
 
+	/* dynamic colors */
 	var tones  = [ "dark", "bright" ];
 	var colors = [
 		"mint",
@@ -12,7 +13,13 @@ angular.module("blockfest").controller
 		"night",
 		"violet"
 	];
-
 	$scope.color = colors[Math.floor(Math.random() * colors.length)];
 	$scope.tone = tones[Math.random() > 0.5 ? 0 : 1];
+
+	/* dynamic fonts */
+	var fonts = [
+		"unica",
+		"inconsolata"
+	];
+	$scope.font = fonts[Math.floor(Math.random() * fonts.length)];
 } ]);
