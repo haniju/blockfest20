@@ -1,7 +1,7 @@
 # lancer le site 
 - `git clone https://github.com/LeBlockFest/blockfest20`
 - `cd blockfest20`
-- `http-server`
+- `python -m SimpleHTTPServer 8000`
 
 # installer http-server
 - mac : `brew install http-server`
