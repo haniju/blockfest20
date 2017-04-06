@@ -24,11 +24,11 @@
 </head>
 <body>
 
-	<div class="nav-bar">
+	<div id="nav-bar" class="dark">
 		<div class="half-slice" style="flex-direction:row; justify-content:flex-start; width:unset;">
 			<a href="url">
 				<div class="button-nav">
-					<img src="img/blocs/white/bloc20-39.svg" style="height:35px; width:auto; margin-right: 10px">
+					<img src="img/blocs/black/bloc20-40.svg" style="height:35px; width:auto; margin-right: 10px; fill:white">
 					<div id="small-logo-slice" class="unica">
 						<h4>Le BlockFest 2.0</h4>
 					</div>
@@ -37,7 +37,7 @@
 		</div>
 
 		<div class="half-slice" style="flex-direction:row; justify-content:flex-end; width:unset;">
-			<a href="http://www.base.blockfest.fr/" target="_blank">
+				<a href="http://www.base.blockfest.fr/" target="_blank">
 				<div class="button-nav">
 					<img src="img/pictos/social-base.svg" style="height:26px">
 				</div>
@@ -57,10 +57,49 @@
 					<img src="img/pictos/social-fb.svg" style="height:24px">
 				</div>
 			</a>
+		<!--div class="res">
+
+			<script>
+			$(document).ready(function() {
+    		$('.parent').click(function() {
+      		$('.sub-nav').toggleClass('visible');
+    			});
+				});
+			</script>
+
+			<!--div class="dropdown-box">
+
+				<button class="button-ddwn" onclick="dropdown()">
+					<h1 style="color:white">
+						+
+					</h1>
+				</button>
+				<div class="dropdown-content">
+					<h1 style="text-align:left;">
+						<button class="ddwn-button" id="addResource" style="width:100%">
+							<h1 style="text-align: left">
+								nouvelle ressource
+							</h1>
+						</button>
+						<button class="ddwn-button" id="newGroup" style="width:100%">
+							<h1 style="text-align: left">
+								nouveau groupe
+							</h1>
+						</button>
+						<button class="ddwn-button" id="newNote" style="width:100%">
+							<h1 style="text-align: left">
+								nouvelle note
+							</h1>
+						</button>
+					</h1>
+ 				</div>
+			</div-->
 		</div>
 	</div>
 
-	<div id="container" class="lemon"><!--class defines background-color
+	</div>
+
+	<div id="container" class="green"><!--class defines background-color
 		-> other classes : "violet" or "lemon" or "raspberry" or "green" or "night"-->
 
 		<div class="bigBox" style="margin-top:75px">
@@ -80,26 +119,7 @@
 			</div>
 		</div>
 
-		<div class="regBox">
-			<svg width="130px" height="131px" viewBox="0 0 130 131">
-		<path
-            fill="#FFFFFF"
-						d="M50.247,34.568c0,0,3.613-1.39,5.003-4.448c1.391-3.058,2.502-11.119-3.335-13.343
-							c-5.838-2.224-6.672-2.78-6.672-2.78l1.946-9.173l-5.56-1.946l-3.336,8.896l-2.78-1.112l1.668-8.339L31.9,0.377l-3.614,8.617
-							L17.724,6.771l-1.946,6.95l6.116,1.946c0,0-3.892,22.516-6.394,27.798l-5.003-1.391l-3.058,7.228l11.119,3.336l-2.224,7.505
-							l5.56,2.224l2.501-8.061l3.614,0.834l-2.501,7.783l6.671,2.502l2.779-10.008c0,0,8.617,2.502,14.177,0s7.188-12.626,5.799-15.962
-							C53.542,36.119,50.247,34.568,50.247,34.568z M38.849,48.467c-5.837,0-12.508-2.502-12.508-2.502l3.058-11.118
-							c0,0,8.382,2.378,11.674,3.892C44.502,40.313,44.687,48.467,38.849,48.467z M43.575,29.009c-1.111,0.556-3.613,1.946-12.508,0
-							l2.501-11.119c0,0,6.671,0.834,9.451,3.058C45.798,23.171,44.687,28.453,43.575,29.009z">
-            <animate
-                attributeType="XML"
-                attributeName="fill"
-                values="#fee24c;#54dfc0;#4137c5;#e8546d;#a24dff;#7bce5d"
-                dur="2s"
-                repeatCount="indefinite"/>
-            </path>
-
- </svg>
+		<div class="regularBox">
 			<div class="ftext-slice">
 				<h3> Monté par une équipe pluri-disciplinaire passionnée
 par la transmission et le partage, le BlockFest a pour objectif d'être un
@@ -107,13 +127,13 @@ espace-temps de construction collective, accueillant et fertile. </h3>
 			</div>
 		</div>
 
-		<div class="regBox">
+		<div class="regularBox">
 			<div id="box-band" class="unica">
 				<h1> Au programme </h1>
 			</div>
-			<div class="regBox-hslice">
+			<div class="regularBox-hslice">
 
-				<div class="regBox-vslice">
+				<div class="regularBox-vslice">
 					<div class="picto-slice">
 						<div class="pictoBox">
 							<img src="img/pictos/black/picto20-21.svg">
@@ -127,7 +147,7 @@ espace-temps de construction collective, accueillant et fertile. </h3>
 					</div>
 				</div>
 
-				<div class="regBox-vslice">
+				<div class="regularBox-vslice">
 					<div class="picto-slice">
 						<div class="pictoBox">
 							<img src="img/pictos/black/picto20-22.svg">
@@ -138,7 +158,7 @@ espace-temps de construction collective, accueillant et fertile. </h3>
 					</div>
 				</div>
 
-				<div class="regBox-vslice">
+				<div class="regularBox-vslice">
 					<div class="picto-slice">
 						<div class="pictoBox">
 							<img src="img/pictos/black/picto20-20.svg">
@@ -154,11 +174,11 @@ espace-temps de construction collective, accueillant et fertile. </h3>
 			</div>
 		</div>
 
-		<div class="regBox">
+		<div class="regularBox">
 			<div id="box-band" class="unica">
 				<h1> Explorer 3 grandes technologies </h1>
 			</div>
-			<div class="regBox-vslice">
+			<div class="regularBox-vslice">
 				<div class="picto-slice">
 
 					<div class="pictoBox">
@@ -172,11 +192,11 @@ espace-temps de construction collective, accueillant et fertile. </h3>
 			</div>
 		</div>
 
-		<div class="regBox">
+		<div class="regularBox">
 			<div id="box-band" class="unica">
 				<h1> Qu'est-ce qui nous anime ? </h1>
 			</div>
-			<div class="regBox-hslice">
+			<div class="regularBox-hslice">
 				<div class="half-slice">
 					<div class="picto-slice">
 						<div class="pictoBox">
@@ -211,7 +231,7 @@ espace-temps de construction collective, accueillant et fertile. </h3>
 				</div>
 			</div>
 
-			<div class="regBox-vslice">
+			<div class="regularBox-vslice">
 				<div class="picto-slice">
 					<div class="pictoBox">
 						<img src="img/pictos/black/picto20-10.svg">
@@ -237,8 +257,8 @@ espace-temps de construction collective, accueillant et fertile. </h3>
 				<div class="imgBox">
 					<img src="img/profile1.jpg" class="small">
 				</div>
-				<div class="regBox-vslice" style="margin-left:15px">
-					<div class="regBox-hslice" style="justify-content:flex-start">
+				<div class="regularBox-vslice" style="margin-left:15px">
+					<div class="regularBox-hslice" style="justify-content:flex-start">
 						<img src="img/pictos/mentor.svg" style="width:25px; margin:unset; margin-right:10px"><h3>Name</h3>
 					</div>
 					<p>line 1</p>

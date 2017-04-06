@@ -1,8 +1,9 @@
 body {
 	max-width: 100vw;
-	color: black;
 	margin: auto;
 }
+
+/*responsive settings*/
 @media all and (min-width: 1500px) {
 }
 @media all and (max-width: 1499px) and (min-width: 600px) {
@@ -33,7 +34,7 @@ body {
 		width: 90vw !important;
 		margin-bottom: 10px !important;
 	}
-	.regBox {
+	.regularBox {
 		width: 85vw !important;
 		margin-bottom: 10px !important;
 	}
@@ -56,17 +57,19 @@ body {
 	}
 	.picto-slice {
 	}
-	.regBox-vslice {
+	.regularBox-vslice {
 		width: unset !important;
 		margin-bottom: 15px !important;
 	}
-	.regBox-hslice {
+	.regularBox-hslice {
 		flex-wrap: wrap !important;
 	}
 	.half-slice {
 		width: unset !important;
 	}
 }
+
+/*Default elements setting*/
 img {
 	margin: auto;
 	width: -moz-available;
@@ -101,17 +104,8 @@ p{
 img.small{
 	border-radius: 50%;
 }
-.nav-bar {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-	height: 45px;
-	margin: auto;
-	position: fixed;
-	background-color: black;
-	color: white;
-}
+
+/* level-0 parents */
 #container {
 	display: flex;
 	flex-direction: column;
@@ -120,31 +114,106 @@ img.small{
 	max-width: 100vw;
 	margin: auto;
 }
-#container.mint {
+#container.mint, body {
 	background-color: #54dfc0 !important;
+	color: black;
 }
-#container.lemon {
+#container.lemon, body {
 	background-color: #fee24c;
+	color: black;
 }
-#container.raspberry {
+#container.raspberry, body {
 	background-color: #e8546d;
+	color: white;
 }
-#container.green {
+#container.green, body {
 	background-color: #7bce5d;
+	color: black;
 }
-#container.night {
+#container.night, body {
 	background-color: #4137c5;
+	color: white;
 }
-#container.violet {
+#container.violet, body {
 	background-color: #a24dff;
+	color: white;
 }
-#container.dark {
+#container.dark, body {
+	background-color: black;
+	color: white;
+}
+#container.bright, body {
+	background-color: white;
+	color: black;
+}
+#nav-bar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	/*height: 45px;*/
+	margin: auto;
+	position: fixed;
 	background-color: black;
 }
-#container.bright {
-	background-color: white;
+#nav-bar.dark, svg {
+	background-color: black;
+	color: white;
+	fill: white;
 }
-/* "boxes" = parents */
+#nav-bar.bright, svg {
+	background-color: white;
+	color: black;
+	fill: black;
+}
+/* buttons */
+#button-ddwn {
+		cursor: pointer;
+		flex-basis: 1;
+		background-color: unset;
+		border: none;
+		padding: 10px 10px 10px 10px;
+}
+#button-ddwn:active .dropdown-content {
+	visibility: visible;
+}
+#button-ddwn:hover {
+	background-color: white;
+	color: black;
+}
+/*.dropdown {
+    position: relative;
+    display: inline-block;
+}
+*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+		background-color: var(--grey1);
+    min-width: 160px;
+    overflow: auto;
+		visibility: hidden;
+}
+#ddwn-button {
+	background-color: white;
+	color:black;
+}
+#ddwn-button:hover {
+	background-color: orange;
+}
+/*
+.dropdown-content button {
+		color: var(--white);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown button:hover {
+}
+*/
+
+/* level-1 chlidren */
 .bigBox {
 	width: 80vw;
 	display: flex;
@@ -155,7 +224,7 @@ img.small{
 	border-color: black;
 	margin-bottom: 45px;
 }
-.regBox {
+.regularBox {
 	width: 70vw;
 	font-family: monospace;
 	display: flex;
@@ -186,7 +255,8 @@ img.small{
 .imgBox {
 	width: 100px;
 }
-/*"slices" = childrens*/
+
+/* level-2 childrens */
 #small-logo-slice {
 	display: flex;
 	flex-wrap: nowrap;
@@ -201,7 +271,8 @@ img.small{
 	font-weight: 700;
 	font-size: 25px;
 }
-	/*font-family: 'Patrick Hand', cursive;
+	/* parallel settings
+	font-family: 'Patrick Hand', cursive;
 	font-size: 130px;
 	text-transform: uppercase;
 	letter-spacing: 5.5px;*/
@@ -227,6 +298,7 @@ img.small{
 	font-size: 105px;
 	text-transform: uppercase;*/
 
+/* There is no class for bigBox-title, no need */
 #bigBox-title {
 	display: flex;
 	justify-content: center;
@@ -279,6 +351,7 @@ img.small{
 	text-align: center;
 	background-color: black;
 }
+
 .pics-slice {
 	display: flex;
 	flex-direction: row;
@@ -298,12 +371,12 @@ img.small{
 	align-items: center;
 	padding: 0px 20px 0px 20px;
 }
-.regBox-hslice {
+.regularBox-hslice {
 	width: 100%;
 	display: flex;
 	justify-content: center;
 }
-.regBox-vslice {
+.regularBox-vslice {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -396,14 +469,23 @@ img.small{
 	font-weight: 400;
 	letter-spacing: 1.5px;
 }
-.button-nav {
+.button-nav, .button-nav-bl {
 	display:flex;
 	align-items:center;
 	padding: 0px 10px 0px 10px;
-	height:45px
+	height:45px;
 	border-style: dotted;
 	border-width: 2px;
 	border-color: rgba(0, 0, 0, 0);
+}
+.button-nav-bl:hover {
+	display:flex;
+	align-items:center;
+	padding: 0px 10px 0px 10px;
+	height:45px;
+	border-style: dotted;
+	border-width: 2px;
+	border-color: black;
 }
 .button-nav:hover{/*
 	box-sizing: border-box;
