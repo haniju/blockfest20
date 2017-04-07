@@ -1,0 +1,54 @@
+/* level-1 chlidren */
+/*responsive settings*/
+@media all and (min-width: 1500px) {
+
+}
+@media all and (max-width: 1499px) and (min-width: 600px) {
+
+}
+@media all and (max-width: 800px) and (min-width: 50px) {
+	.bigBox {
+		width: 90vw !important;
+		margin-bottom: 10px !important;
+	}
+	.regularBox {
+		width: 85vw !important;
+		margin-bottom: 10px !important;
+	}
+	.listBox {
+		width: 90vw !important;
+		margin-bottom: 10px !important;
+	}
+}
+
+.regularBox {
+	width: 70vw;
+	font-family: monospace;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+/*	padding: 25px 25px 25px 25px;*/
+	margin: 15px 0px 45px 0px;
+}
+.listBox {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 80vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	margin-bottom: 45px;
+}
+/*special box*/
+.pictoBox {
+	width: 90px;
+	margin: 0px 15px 0px 15px
+}
+.imgBox {
+	width: 100px;
+}

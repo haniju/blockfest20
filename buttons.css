@@ -1,0 +1,99 @@
+/* buttons */
+#button-ddwn {
+		cursor: pointer;
+		flex-basis: 1;
+		background-color: unset;
+		border: none;
+		padding: 10px 10px 10px 10px;
+}
+#button-ddwn:active .dropdown-content {
+	visibility: visible;
+}
+#button-ddwn:hover {
+	background-color: white;
+	color: black;
+}
+/*.dropdown {
+    position: relative;
+    display: inline-block;
+}
+*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+		background-color: var(--grey1);
+    min-width: 160px;
+    overflow: auto;
+		visibility: hidden;
+}
+#ddwn-button {
+	background-color: white;
+	color:black;
+}
+#ddwn-button:hover {
+	background-color: orange;
+}
+/*
+.dropdown-content button {
+		color: var(--white);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown button:hover {
+}
+*/
+#button-b {
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+	margin: auto;
+	margin-bottom: 28px;
+	background: repeating-linear-gradient(
+		50deg,
+		rgba(0 ,0, 0, 0),
+		rgba(0 ,0, 0, 0) 2px,
+		rgba(0 ,0, 0, 0.1) 2px,
+		rgba(0 ,0, 0, 0.1) 10px
+	);
+	border-style: dotted;
+	border-width: 2px;
+	border-color: rgba(0, 0, 0, 0);
+}
+#button-b:hover {
+	border-style: dotted;
+	border-width: 2px;
+	border-color: black;
+}
+#button-w {
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+	margin: auto;
+	margin-bottom: 28px;
+	background: repeating-linear-gradient(
+		50deg,
+		rgba(255 ,255, 255, 0),
+		rgba(0 ,0, 0, 0) 2px,
+		rgba(255 ,255, 255, 0.1) 2px,
+		rgba(255 ,255, 255, 0.1) 10px
+	);
+	border-style: dotted;
+	border-width: 2px;
+	border-color: rgba(0, 0, 0, 0);
+}
+button{
+	border: unset;
+}
+#button-w:hover {
+	border-style: dotted;
+	border-width: 2px;
+	border-color: white;
+}
+#button-b.unica{
+	font-family: 'Unica One', cursive;
+	font-size: 20px;
+}
+#button-w.inconsolata{
+	font-family: 'Inconsolata', cursive;
+	font-size: 25px;
+	letter-spacing: 1.7px;
+}
