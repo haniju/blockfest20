@@ -32,15 +32,13 @@
 	position: fixed;
 	background-color: black;
 }
-#nav-bar.dark, svg {
+#nav-bar.raspberry #nav-bar.night #nav-bar.violet {
 	background-color: black;
 	color: white;
-	fill: white;
 }
-#nav-bar.bright, svg {
+#nav-bar.lemon, #nav-bar.mint #nav-bar.green {
 	background-color: white;
 	color: black;
-	fill: black;
 }
 #small-logo-slice {
 	display: flex;

@@ -21,7 +21,7 @@
 	}
 }
 
-.regularBox {
+#regularBox {
 	width: 70vw;
 	font-family: monospace;
 	display: flex;
@@ -29,11 +29,16 @@
 	align-items: center;
 	border-style: solid;
 	border-width: 2px;
-	border-color: black;
 /*	padding: 25px 25px 25px 25px;*/
 	margin: 15px 0px 45px 0px;
 }
-.listBox {
+#regularBox.lemon .mint .green {
+	border-color: white;
+}
+#regularBox.raspberry .night .violet {
+	border-color: black;
+}
+#listBox {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
@@ -41,8 +46,13 @@
 	width: 80vw;
 	border-style: solid;
 	border-width: 2px;
-	border-color: black;
 	margin-bottom: 45px;
+}
+#listBox.lemon .mint .green {
+	border-color: white;
+}
+#listBox.raspberry .night .violet {
+	border-color: black;
 }
 /*special box*/
 .pictoBox {

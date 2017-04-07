@@ -2,7 +2,7 @@
 button{
 	border: unset;
 }
-#button.dark {
+#button.raspberry .night .violet {
 	text-align: center;
 	padding: 15px 15px 15px 15px;
 	margin: auto;
@@ -17,13 +17,14 @@ button{
 	border-style: dotted;
 	border-width: 2px;
 	border-color: rgba(0, 0, 0, 0);
+	color: black;
 }
-#button.dark:hover {
+#button.raspberry .night .violet:hover {
 	border-style: dotted;
 	border-width: 2px;
 	border-color: black;
 }
-#button.bright {
+#button.lemon .mint .green {
 	text-align: center;
 	padding: 15px 15px 15px 15px;
 	margin: auto;
@@ -38,8 +39,9 @@ button{
 	border-style: dotted;
 	border-width: 2px;
 	border-color: rgba(0, 0, 0, 0);
+	color: white;
 }
-#button.bright:hover {
+#button.lemon .mint .green:hover {
 	border-style: dotted;
 	border-width: 2px;
 	border-color: white;

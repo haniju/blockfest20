@@ -1,12 +1,19 @@
-.bigBox {
+#bigBox {
 	width: 80vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	border-style: solid;
 	border-width: 2px;
-	border-color: black;
 	margin-bottom: 45px;
+}
+#bigBox.raspberry .night .violet {
+	border-color: black;
+	color: black;
+}
+#bigBox.lemon .mint .green {
+	border-color: white;
+	color: white;
 }
 /* There is no class for bigBox-title, no need */
 #bigBox-title {
@@ -69,11 +76,17 @@
 	letter-spacing: 1.5px;
 	line-height: 135px;
 }
-
-.bigBox-subtitle {
+#bigBox-subtitle {
 	width: 100%;
 	margin: auto;
 	padding: 10px 0px 10px 0px;
 	text-align: center;
+}
+#bigBox-subtitle.raspberry .night .violet {
 	background-color: black;
+	color: white;
+}
+#bigBox-subtitle.lemon .mint .green {
+	background-color: white;
+	color: black;
 }
