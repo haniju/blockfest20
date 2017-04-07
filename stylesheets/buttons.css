@@ -2,7 +2,7 @@
 button{
 	border: unset;
 }
-#button.raspberry .night .violet {
+#button.lemon, #button.raspberry, #button.violet {
 	text-align: center;
 	padding: 15px 15px 15px 15px;
 	margin: auto;
@@ -19,12 +19,12 @@ button{
 	border-color: rgba(0, 0, 0, 0);
 	color: black;
 }
-#button.raspberry .night .violet:hover {
+#button.raspberry:hover, #button.lemon:hover, #button.violet:hover {
 	border-style: dotted;
 	border-width: 2px;
 	border-color: black;
 }
-#button.lemon .mint .green {
+#button.night, #button.mint, #button.green {
 	text-align: center;
 	padding: 15px 15px 15px 15px;
 	margin: auto;
@@ -41,7 +41,7 @@ button{
 	border-color: rgba(0, 0, 0, 0);
 	color: white;
 }
-#button.lemon .mint .green:hover {
+#button.night:hover, #button.mint:hover, #button.green:hover {
 	border-style: dotted;
 	border-width: 2px;
 	border-color: white;
@@ -57,9 +57,10 @@ button{
 }
 .playfair{
 	font-family: 'Playfair Display', serif;
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 21px;
 	letter-spacing: 2.2px;
+	line-height: 120px,
 }
 .graduate{
 	font-family: 'Graduate', cursive;
