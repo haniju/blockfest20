@@ -1,12 +1,56 @@
 /* buttons */
+
+/*responsive settings*/
+@media all and (min-width: 1500px) {
+
+}
+@media all and (max-width: 1499px) and (min-width: 600px) {
+
+}
+@media all and (max-width: 800px) and (min-width: 50px) {
+	.unica{
+		font-size: 20px !important;
+	}
+	.inconsolata{
+		font-size: 25px;
+		letter-spacing: 1.7px;
+	}
+	.playfair{
+		font-size: 16px !important;
+		letter-spacing: 1px !important;
+	}
+	.graduate{
+		font-size: 20px !important;
+	}
+	.francois{
+		font-size: 18px !important;
+	}
+	.squada{
+		font-size: 20px !important;
+		letter-spacing: 1px !important;
+	}
+	.oleo{
+		font-size: 25px !important;
+		letter-spacing: 2px !important;
+	}
+	.bungee{
+		font-size: 24px !important;
+		letter-spacing: 1.3px !important;
+	}
+}
+
 button{
 	border: unset;
 }
-#button.lemon, #button.raspberry, #button.violet {
+#button {
 	text-align: center;
 	padding: 15px 15px 15px 15px;
 	margin: auto;
 	margin-bottom: 28px;
+	border-style: dotted;
+	border-width: 2px;
+}
+#button.lemon, #button.raspberry, #button.violet {
 	background: repeating-linear-gradient(
 		50deg,
 		rgba(0 ,0, 0, 0),
@@ -14,8 +58,6 @@ button{
 		rgba(0 ,0, 0, 0.1) 2px,
 		rgba(0 ,0, 0, 0.1) 10px
 	);
-	border-style: dotted;
-	border-width: 2px;
 	border-color: rgba(0, 0, 0, 0);
 	color: black;
 }
@@ -25,10 +67,6 @@ button{
 	border-color: black;
 }
 #button.night, #button.mint, #button.green {
-	text-align: center;
-	padding: 15px 15px 15px 15px;
-	margin: auto;
-	margin-bottom: 28px;
 	background: repeating-linear-gradient(
 		50deg,
 		rgba(255 ,255, 255, 0),
@@ -36,8 +74,6 @@ button{
 		rgba(255 ,255, 255, 0.1) 2px,
 		rgba(255 ,255, 255, 0.1) 10px
 	);
-	border-style: dotted;
-	border-width: 2px;
 	border-color: rgba(0, 0, 0, 0);
 	color: white;
 }

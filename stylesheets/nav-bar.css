@@ -1,5 +1,4 @@
 /*responsive settings*/
-
 @media all and (min-width: 1500px) {
 
 }
@@ -13,11 +12,29 @@
 	#small-logo-slice.inconsolata {
 		font-size: 20px !important;
 	}
-	#bigBox-title.unica {
-		font-size: 12vw !important;
+	#small-logo-slice.playfair {
+		font-size: 22px !important;
+		letter-spacing: 1.5px !important;
 	}
-	#bigBox-title.inconsolata{
-		font-size: 10vw;
+	#small-logo-slice.graduate {
+		font-size: 20px !important;
+		letter-spacing: 2px !important;
+	}
+	#small-logo-slice.francois {
+		font-size: 20px !important;
+	}
+	#small-logo-slice.squada {
+		font-size: 24px !important;
+	}
+	#small-logo-slice.oleo {
+		font-size: 27px !important;
+		letter-spacing: 0.5px !important;
+	}
+	#small-logo-slice.bungee {
+		font-size: 21px !important;
+	}
+	#small-logo-slice.oswald {
+		font-size: 22px !important;
 	}
 }
 

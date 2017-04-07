@@ -1,23 +1,26 @@
 /* level-1 chlidren */
 /*responsive settings*/
 @media all and (min-width: 1500px) {
-
+	#regularBox {
+		width: 55vw !important;
+	}
+	#listBox {
+		width: 60vw !important;
+	}
 }
 @media all and (max-width: 1499px) and (min-width: 600px) {
 
 }
 @media all and (max-width: 800px) and (min-width: 50px) {
-	.bigBox {
-		width: 90vw !important;
-		margin-bottom: 10px !important;
-	}
-	.regularBox {
+	#regularBox {
 		width: 85vw !important;
 		margin-bottom: 10px !important;
+		padding: unset !important;
 	}
-	.listBox {
+	#listBox {
 		width: 90vw !important;
 		margin-bottom: 10px !important;
+		padding: unset !important;
 	}
 }
 

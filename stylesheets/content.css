@@ -1,7 +1,6 @@
 /* level-2 childrens */
 
 /*responsive settings*/
-
 @media all and (min-width: 1500px) {
 
 }
@@ -14,15 +13,11 @@
 	}
 	.pics-slice {
 		flex-direction: column !important;
-	}
-	.pic-slice {
 		max-width: 100% !important;
 	}
 	.pictoBox {
 		width: 70px !important;
 		margin: 0px 7px 0px 7px !important;
-	}
-	.picto-slice {
 	}
 	.regularBox-vslice {
 		width: unset !important;

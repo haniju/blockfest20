@@ -1,4 +1,16 @@
 /* level-0 parents */
+
+/*responsive settings*/
+@media all and (min-width: 1500px) {
+
+}
+@media all and (max-width: 1499px) and (min-width: 600px) {
+
+}
+@media all and (max-width: 800px) and (min-width: 50px) {
+
+}
+
 #container {
 	display: flex;
 	flex-direction: column;
