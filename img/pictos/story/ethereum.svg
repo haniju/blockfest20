@@ -4,11 +4,11 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="65.8px" height="65.801px" viewBox="0 0 65.8 65.801" enable-background="new 0 0 65.8 65.801" xml:space="preserve">
 <g>
-	<polygon fill="#D9D9D9" points="32.9,0.687 12.637,34.213 32.9,26.107 	"/>
-	<polygon fill="#D9D9D9" points="13.189,36.699 32.893,49.641 32.893,65.113 	"/>
-	<polygon fill="#B3B3B3" points="32.9,26.107 32.9,45.266 14.458,33.484 	"/>
-	<polygon fill="#FFFFFF" points="32.9,0.687 53.164,34.213 32.9,26.107 	"/>
-	<polygon fill="#FFFFFF" points="52.611,36.699 32.907,49.641 32.907,65.113 	"/>
-	<polygon fill="#E6E6E6" points="32.9,26.107 32.9,45.266 51.341,33.484 	"/>
+	<polygon fill="none" points="32.9,-0.313 12.637,33.213 32.9,25.107 	"/>
+	<polygon fill="none" points="13.189,36.699 32.893,49.641 32.893,65.113 	"/>
+	<polygon fill="none" points="32.9,26.107 32.9,45.266 14.458,33.484 	"/>
+	<polygon fill="none" points="33.9,-0.313 54.164,33.213 33.9,25.107 	"/>
+	<polygon fill="none" points="53.611,36.699 33.908,49.641 33.908,65.113 	"/>
+	<polygon fill="none" points="33.9,26.107 33.9,45.266 52.341,33.484 	"/>
 </g>
 </svg>
