@@ -23,36 +23,52 @@
 #bigBox-title.inconsolata {
 	font-family: 'inconsolata', cursive;
 	font-size: 9vw;
-	letter-spacing: 5.5px;
 	font-weight: 700;
 	letter-spacing: 1.5px;
 }
-	/*font-family: 'Patrick Hand', cursive;
-	font-size: 130px;
-	text-transform: uppercase;
-	letter-spacing: 5.5px;*/
-	/*font-family: 'Squada One', cursive;
-	font-size: 130px;
-	text-transform: uppercase;
-	letter-spacing: 5.5px;*/
-	/*font-family: 'Oleo Script', cursive;
-	font-size: 130px;
-	letter-spacing: 3px;*/
-	/*font-family: 'Londrina Solid', cursive;
-	font-size: 130px;
-	letter-spacing: 3px;*/
-	/*font-family: 'Graduate', cursive;
+#bigBox-title.playfair {
+	font-family: 'Playfair Display', serif;
+	font-size: 9vw;
+	font-weight: 900;
+	letter-spacing: 4px;
+}
+#bigBox-title.graduate {
+	font-family: 'Graduate', cursive;
 	font-size: 105px;
-	text-transform: uppercase;*/
-	/*font-family: 'Bungee Shade', cursive;
-	font-size: 85px;
-	letter-spacing: -3.9px;
+	text-transform: uppercase;
+}
+#bigBox-title.francois {
+	font-family: 'inconsolata', cursive;
+	font-size: 9vw;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+#bigBox-title.squada {
+	font-family: 'Squada One', cursive;
+	font-size: 130px;
+	text-transform: uppercase;
+	letter-spacing: 5.5px;
+}
+#bigBox-title.oleo {
+	font-family: 'Oleo Script', cursive;
+	font-size: 8vw;
+	letter-spacing: 3px;
+	line-height: 115px;
+	font-weight: 400;
+}
+#bigBox-title.bungee {
 	font-family: 'Bungee Inline', cursive;
 	font-size: 105px;
-	letter-spacing: -3.9px;
-	/*font-family: 'Averia Serif Libre', cursive;
-	font-size: 105px;
-	text-transform: uppercase;*/
+	letter-spacing: -0.9px;
+}
+#bigBox-title.oswald {
+	font-family: 'Oswald', sans-serif;
+	font-size: 9vw;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	line-height: 135px;
+}
 
 .bigBox-subtitle {
 	width: 100%;

@@ -97,3 +97,42 @@ button{
 	font-size: 25px;
 	letter-spacing: 1.7px;
 }
+#button-w.playfair{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 21px;
+	letter-spacing: 2.2px;
+}
+#button-w.graduate{
+	font-family: 'Graduate', cursive;
+	font-size: 23px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+#button-w.francois{
+	font-family: 'Francois One', sans-serif;
+	font-size: 23px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+#button-w.squada{
+	font-family: 'Squada One', cursive;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+#button-w.oleo{
+	font-family: 'Oleo Script', cursive;
+	font-size: 25px;
+	letter-spacing: 2px;
+	font-weight: 400;
+}
+#button-w.bungee{
+	font-family: 'Bungee Inline', cursive;
+	font-size: 24px;
+	letter-spacing: 1.3px;
+}
+#button-w.oswald{
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+}

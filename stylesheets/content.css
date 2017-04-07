@@ -121,27 +121,6 @@
     rgba(0 ,0, 0, 0.1) 10px
   );*/
 }
-#box-band.averia{
-	font-family: 'Averia Serif Libre', cursive;
-}
-#box-band.bungee{
-	font-family: 'Bungee Shade', cursive;
-}
-#box-band.graduate{
-	font-family: 'Graduate', cursive;
-}
-#box-band.londrina{
-	font-family: 'Londrina Solid', cursive;
-}
-#box-band.oleo{
-  font-family: 'Oleo Script', cursive;
-}
-#box-band.patrick{
-  font-family: 'Patrick Hand', cursive;
-}
-#box-band.squada{
-	font-family: 'Squada One', cursive;
-}
 #box-band.unica{
 	font-family: 'Unica One', cursive;
 	font-size: 20px;
@@ -151,4 +130,43 @@
 	font-size: 20px;
 	font-weight: 400;
 	letter-spacing: 1.5px;
+}
+#box-band.playfair{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 21px;
+	letter-spacing: 2.2px;
+}
+#box-band.graduate{
+	font-family: 'Graduate', cursive;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+#box-band.francois{
+	font-family: 'Francois One', sans-serif;
+	font-size: 21px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+#box-band.squada{
+	font-family: 'Squada One', cursive;
+	font-size: 26px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+#box-band.oleo{
+	font-family: 'Oleo Script', cursive;
+	font-size: 25px;
+	letter-spacing: 2px;
+	font-weight: 400;
+}
+#box-band.bungee{
+	font-family: 'Bungee Inline', cursive;
+	font-size: 24px;
+	letter-spacing: 1.3px;
+}
+#box-band.oswald{
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
 }
