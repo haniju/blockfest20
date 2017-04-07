@@ -1,4 +1,99 @@
 /* buttons */
+button{
+	border: unset;
+}
+#button.dark {
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+	margin: auto;
+	margin-bottom: 28px;
+	background: repeating-linear-gradient(
+		50deg,
+		rgba(0 ,0, 0, 0),
+		rgba(0 ,0, 0, 0) 2px,
+		rgba(0 ,0, 0, 0.1) 2px,
+		rgba(0 ,0, 0, 0.1) 10px
+	);
+	border-style: dotted;
+	border-width: 2px;
+	border-color: rgba(0, 0, 0, 0);
+}
+#button.dark:hover {
+	border-style: dotted;
+	border-width: 2px;
+	border-color: black;
+}
+#button.bright {
+	text-align: center;
+	padding: 15px 15px 15px 15px;
+	margin: auto;
+	margin-bottom: 28px;
+	background: repeating-linear-gradient(
+		50deg,
+		rgba(255 ,255, 255, 0),
+		rgba(0 ,0, 0, 0) 2px,
+		rgba(255 ,255, 255, 0.1) 2px,
+		rgba(255 ,255, 255, 0.1) 10px
+	);
+	border-style: dotted;
+	border-width: 2px;
+	border-color: rgba(0, 0, 0, 0);
+}
+#button.bright:hover {
+	border-style: dotted;
+	border-width: 2px;
+	border-color: white;
+}
+.unica{
+	font-family: 'Unica One', cursive;
+	font-size: 20px;
+}
+.inconsolata{
+	font-family: 'Inconsolata', cursive;
+	font-size: 25px;
+	letter-spacing: 1.7px;
+}
+.playfair{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 21px;
+	letter-spacing: 2.2px;
+}
+.graduate{
+	font-family: 'Graduate', cursive;
+	font-size: 23px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.francois{
+	font-family: 'Francois One', sans-serif;
+	font-size: 23px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.squada{
+	font-family: 'Squada One', cursive;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+.oleo{
+	font-family: 'Oleo Script', cursive;
+	font-size: 25px;
+	letter-spacing: 2px;
+	font-weight: 400;
+}
+.bungee{
+	font-family: 'Bungee Inline', cursive;
+	font-size: 24px;
+	letter-spacing: 1.3px;
+}
+.oswald{
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+}
+
+/*FOO*/
 #button-ddwn {
 		cursor: pointer;
 		flex-basis: 1;
@@ -43,96 +138,3 @@
 .dropdown button:hover {
 }
 */
-#button-b {
-	text-align: center;
-	padding: 15px 15px 15px 15px;
-	margin: auto;
-	margin-bottom: 28px;
-	background: repeating-linear-gradient(
-		50deg,
-		rgba(0 ,0, 0, 0),
-		rgba(0 ,0, 0, 0) 2px,
-		rgba(0 ,0, 0, 0.1) 2px,
-		rgba(0 ,0, 0, 0.1) 10px
-	);
-	border-style: dotted;
-	border-width: 2px;
-	border-color: rgba(0, 0, 0, 0);
-}
-#button-b:hover {
-	border-style: dotted;
-	border-width: 2px;
-	border-color: black;
-}
-#button-w {
-	text-align: center;
-	padding: 15px 15px 15px 15px;
-	margin: auto;
-	margin-bottom: 28px;
-	background: repeating-linear-gradient(
-		50deg,
-		rgba(255 ,255, 255, 0),
-		rgba(0 ,0, 0, 0) 2px,
-		rgba(255 ,255, 255, 0.1) 2px,
-		rgba(255 ,255, 255, 0.1) 10px
-	);
-	border-style: dotted;
-	border-width: 2px;
-	border-color: rgba(0, 0, 0, 0);
-}
-button{
-	border: unset;
-}
-#button-w:hover {
-	border-style: dotted;
-	border-width: 2px;
-	border-color: white;
-}
-#button-b.unica{
-	font-family: 'Unica One', cursive;
-	font-size: 20px;
-}
-#button-w.inconsolata{
-	font-family: 'Inconsolata', cursive;
-	font-size: 25px;
-	letter-spacing: 1.7px;
-}
-#button-w.playfair{
-	font-family: 'Playfair Display', serif;
-	font-weight: 400;
-	font-size: 21px;
-	letter-spacing: 2.2px;
-}
-#button-w.graduate{
-	font-family: 'Graduate', cursive;
-	font-size: 23px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-}
-#button-w.francois{
-	font-family: 'Francois One', sans-serif;
-	font-size: 23px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-}
-#button-w.squada{
-	font-family: 'Squada One', cursive;
-	font-size: 30px;
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
-}
-#button-w.oleo{
-	font-family: 'Oleo Script', cursive;
-	font-size: 25px;
-	letter-spacing: 2px;
-	font-weight: 400;
-}
-#button-w.bungee{
-	font-family: 'Bungee Inline', cursive;
-	font-size: 24px;
-	letter-spacing: 1.3px;
-}
-#button-w.oswald{
-	font-family: 'Oswald', sans-serif;
-	font-size: 25px;
-}
