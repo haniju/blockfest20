@@ -1,0 +1,45 @@
+/* level-0 parents */
+
+/*responsive settings*/
+@media all and (min-width: 1500px) {
+
+}
+@media all and (max-width: 1499px) and (min-width: 600px) {
+
+}
+@media all and (max-width: 800px) and (min-width: 50px) {
+
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 100vw;
+	margin: auto;
+}
+#container.mint, body {
+	background-color: #54dfc0 !important;
+	color: black;
+}
+#container.lemon, body {
+	background-color: #fee24c;
+	color: black;
+}
+#container.raspberry, body {
+	background-color: #e8546d;
+	color: white;
+}
+#container.green, body {
+	background-color: #7bce5d;
+	color: black;
+}
+#container.night, body {
+	background-color: #4137c5;
+	color: white;
+}
+#container.violet, body {
+	background-color: #a24dff;
+	color: white;
+}

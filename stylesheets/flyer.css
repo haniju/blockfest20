@@ -1,0 +1,175 @@
+/*responsive settings*/
+@media all and (min-width: 1500px) {
+	#bigBox {
+		width: 60vw !important;
+	}
+	#bigBox-title.graduate {
+		font-size: 6vw !important;
+	}
+	#bigBox-title.oleo {
+		font-size: 8vw !important;
+		line-height: 150px !important;
+	}
+	#bigBox-title.playfair {
+		font-size: 7vw !important;
+		line-height: 140px !important;
+	}
+	#bigBox-title.francois {
+		font-size: 6.5vw !important;
+		line-height: 130px !important;
+	}
+	#bigBox-title.unica {
+		font-size: 8vw !important;
+		line-height: 135px !important;
+	}
+	#bigBox-title.oswald {
+		font-size: 8vw !important;
+		line-height: 160px !important;
+	}
+	#bigBox-title.squada {
+		font-size: 8vw !important;
+		line-height: 125px !important;
+	}
+	#bigBox-title.bungee {
+		font-size: 5.6vw !important;
+	}
+}
+@media all and (max-width: 1499px) and (min-width: 600px) {
+
+}
+@media all and (max-width: 800px) and (min-width: 50px) {
+	#bigBox {
+		width: 90vw !important;
+	}
+	#bigBox-title.unica {
+		font-size: 12vw !important;
+		line-height: 50px !important;
+	}
+	#bigBox-title.inconsolata{
+		font-size: 10vw !important;
+	}
+	#bigBox-title.graduate {
+		font-size: 8.5vw !important;
+		line-height: 40px;
+	}
+	#bigBox-title.oleo {
+		font-size: 8vw !important;
+		line-height: 150px !important;
+	}
+	#bigBox-title.playfair {
+		font-size: 9.5vw !important;
+		line-height: 60px !important;
+		letter-spacing: 3px !important;
+	}
+	#bigBox-title.francois {
+		font-size: 9.5vw !important;
+		line-height: 55px !important;
+	}
+	#bigBox-title.oswald {
+		font-size: 11vw !important;
+		line-height: 60px !important;
+	}
+	#bigBox-title.squada {
+		font-size: 12.5vw !important;
+		line-height: 45px !important;
+	}
+	#bigBox-title.bungee {
+		font-size: 8vw !important;
+	}
+}
+
+#bigBox {
+	width: 80vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-style: solid;
+	border-width: 2px;
+}
+#bigBox.raspberry .night .violet {
+	border-color: black;
+	color: black;
+}
+#bigBox.lemon .mint .green {
+	border-color: white;
+	color: white;
+}
+/* There is no class for bigBox-title, no need */
+#bigBox-title {
+	display: flex;
+	justify-content: center;
+	padding: 15px 20px 0px 20px;
+	width: 100%;
+	text-align: center;
+}
+#bigBox-title.unica {
+	font-family: 'Unica One', cursive;
+	font-size: 11vw;
+	line-height: 120px;
+}
+#bigBox-title.inconsolata {
+	font-family: 'inconsolata', cursive;
+	font-size: 9vw;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+}
+#bigBox-title.playfair {
+	font-family: 'Playfair Display', serif;
+	font-size: 9vw;
+	font-weight: 900;
+	letter-spacing: 4px;
+	line-height: 125px;
+}
+#bigBox-title.graduate {
+	font-family: 'Graduate', cursive;
+	font-size: 7.5vw;
+	text-transform: uppercase;
+}
+#bigBox-title.francois {
+	font-family: 'Francois One', sans-serif;
+	font-size: 9vw;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	line-height: 120px;
+}
+#bigBox-title.squada {
+	font-family: 'Squada One', cursive;
+	font-size: 10vw;
+	line-height: 115px;
+	text-transform: uppercase;
+	letter-spacing: 5.5px;
+}
+#bigBox-title.oleo {
+	font-family: 'Oleo Script', cursive;
+	font-size: 9vw;
+	letter-spacing: 3px;
+	line-height: 115px;
+	font-weight: 400;
+}
+#bigBox-title.bungee {
+	font-family: 'Bungee Inline', cursive;
+	font-size: 7.6vw;
+	letter-spacing: -0.9px;
+}
+#bigBox-title.oswald {
+	font-family: 'Oswald', sans-serif;
+	font-size: 9vw;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	line-height: 135px;
+}
+#bigBox-subtitle {
+	width: 100%;
+	margin: auto;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+}
+#bigBox-subtitle.raspberry, #bigBox-subtitle.night, #bigBox-subtitle.violet {
+	background-color: black;
+	color: white;
+}
+#bigBox-subtitle.lemon, #bigBox-subtitle.mint, #bigBox-subtitle.green {
+	background-color: white;
+	color: black;
+}

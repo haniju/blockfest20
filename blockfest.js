@@ -19,7 +19,13 @@ angular.module("blockfest").controller
 	/* dynamic fonts */
 	var fonts = [
 		"unica",
-		"inconsolata"
+		"playfair",
+		"graduate",
+		"francois",
+		"squada",
+		"oleo",
+		"bungee",
+		"oswald"
 	];
 	$scope.font = fonts[Math.floor(Math.random() * fonts.length)];
 } ]);

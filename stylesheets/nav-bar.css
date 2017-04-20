@@ -1,0 +1,140 @@
+/*responsive settings*/
+@media all and (min-width: 1500px) {
+
+}
+@media all and (max-width: 1499px) and (min-width: 600px) {
+
+}
+@media all and (max-width: 800px) and (min-width: 50px) {
+	#small-logo-slice.unica {
+		font-size: 17px !important;
+	}
+	#small-logo-slice.inconsolata {
+		font-size: 20px !important;
+	}
+	#small-logo-slice.playfair {
+		font-size: 22px !important;
+		letter-spacing: 1.5px !important;
+	}
+	#small-logo-slice.graduate {
+		font-size: 20px !important;
+		letter-spacing: 2px !important;
+	}
+	#small-logo-slice.francois {
+		font-size: 20px !important;
+	}
+	#small-logo-slice.squada {
+		font-size: 24px !important;
+	}
+	#small-logo-slice.oleo {
+		font-size: 27px !important;
+		letter-spacing: 0.5px !important;
+	}
+	#small-logo-slice.bungee {
+		font-size: 21px !important;
+	}
+	#small-logo-slice.oswald {
+		font-size: 22px !important;
+	}
+}
+
+#nav-bar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	/*height: 45px;*/
+	margin: auto;
+	position: fixed;
+	background-color: black;
+}
+#nav-bar.raspberry #nav-bar.night #nav-bar.violet {
+	background-color: black;
+	color: white;
+}
+#nav-bar.lemon, #nav-bar.mint #nav-bar.green {
+	background-color: white;
+	color: black;
+}
+#small-logo-slice {
+	display: flex;
+	flex-wrap: nowrap;
+	text-align: left;
+	margin-left: 10px;
+}
+#small-logo-slice.unica {
+	font-family: 'Unica One', cursive;
+	font-size: 29px;
+}
+#small-logo-slice.inconsolata {
+	font-family: 'Inconsolata', cursive;
+	font-weight: 700;
+	font-size: 25px;
+}
+#small-logo-slice.playfair {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900 !important;
+	font-size: 26px;
+	letter-spacing: 0.9px;
+}
+#small-logo-slice.graduate {
+	font-family: 'Graduate', cursive;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+#small-logo-slice.francois {
+	font-family: 'Francois One', sans-serif;
+	font-size: 25px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+#small-logo-slice.squada {
+	font-family: 'Squada One', cursive;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+#small-logo-slice.oleo {
+	font-family: 'Oleo Script', cursive;
+	font-size: 27px;
+	letter-spacing: 0.5px;
+	font-weight: 400;
+}
+#small-logo-slice.bungee {
+	font-family: 'Bungee Inline', cursive;
+	font-size: 24px;
+	letter-spacing: 1.3px;
+}
+#small-logo-slice.oswald {
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	letter-spacing: 0.7px;
+	font-weight: 500;
+}
+.button-nav, .button-nav-bl {
+	display:flex;
+	align-items:center;
+	padding: 0px 10px 0px 10px;
+	height:45px;
+	border-style: dotted;
+	border-width: 2px;
+	border-color: rgba(0, 0, 0, 0);
+}
+.button-nav-bl:hover {
+	display:flex;
+	align-items:center;
+	padding: 0px 10px 0px 10px;
+	height:45px;
+	border-style: dotted;
+	border-width: 2px;
+	border-color: black;
+}
+.button-nav:hover{/*
+	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;*/
+	border-style: dotted;
+	border-width: 2px;
+	border-color: white;
+}

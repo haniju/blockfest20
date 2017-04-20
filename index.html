@@ -12,18 +12,24 @@
 		<script src="blockfest.js"></script>
 
 		<!-- stylesheets -->
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="flyer.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/flyer.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/containers.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/boxes.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/content.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/nav-bar.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/buttons.css">
 
 		<!-- fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre:300,400,700|Bungee+Inline|Graduate|Londrina+Solid|Oleo+Script:400,700|Patrick+Hand|Squada+One|Unica+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Graduate|Squada+One|Unica+One" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Delius|Inconsolata:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Francois+One|Oswald:500|Pacifico|Playfair+Display:400,700,900" rel="stylesheet">
 	</head>
 
 	<body ng-app="blockfest" ng-controller="main">
 
-		<div id="nav-bar" class="{{tone}}" ng-include="'nav.html'"></div>
+		<div id="nav-bar" class="{{color}}" ng-include="'nav.html'"></div>
 
 		<div id="container" class="{{color}}"><!--class defines background-color
 			-> other classes : "violet" or "lemon" or "raspberry" or "green" or "night"-->
@@ -37,8 +43,10 @@
 
 			<div ng-include="'profils.html'"></div>
 
-			<button id="button-b" class="unica">
-				Acheter mes billets en early bird
+			<button id="button" class="{{color}}">
+				<div class="{{font}}">
+					Acheter mes billets en early bird
+				</div>
 			</button>
 
 			<div ng-include="'sponsors.html'"></div>

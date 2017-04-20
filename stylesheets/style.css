@@ -1,0 +1,64 @@
+body {
+	max-width: 100vw;
+	margin: auto;
+}
+
+/*responsive settings*/
+@media all and (min-width: 1500px) {
+}
+@media all and (max-width: 1499px) and (min-width: 600px) {
+}
+@media all and (max-width: 800px) and (min-width: 50px) {
+	h1 {
+		font-size: 25px !important;
+	}
+	h2 {
+		font-size: 17px !important;
+	}
+	h3 {
+		font-size: 16px !important;
+	}
+}
+
+/*Default elements setting*/
+img {
+	margin: auto;
+	width: -moz-available;
+}
+h1 {
+	margin: unset;
+}
+h2 {
+	font-size: 25px;
+	letter-spacing: 1.7px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	margin: unset;
+}
+h3 {
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	margin: unset;
+}
+h4 {
+	margin: unset;
+}
+p{
+	margin: unset;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+img.small{
+	border-radius: 50%;
+}
+a {
+	text-decoration: none;
+	color: unset;
+}
+/*a :hover{
+	background-color: grey;
+}*/
