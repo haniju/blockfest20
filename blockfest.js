@@ -3,6 +3,7 @@ angular.module("blockfest", []);
 angular.module("blockfest").controller
 ("main", [ "$scope", function ($scope) {
 
+
 	/* dynamic colors */
 	var tones  = [ "dark", "bright" ];
 	var colors = [
@@ -29,3 +30,25 @@ angular.module("blockfest").controller
 	];
 	$scope.font = fonts[Math.floor(Math.random() * fonts.length)];
 } ]);
+
+angular.module("blockfest").directive("svg", function() {
+	return {
+		scope: {
+			imgURL: "=svg"
+		},
+		link: function (scope, element, attributes) {
+			imgURL = attributes.svg;
+			jQuery.get(imgURL, function(data) {
+				var $svg = jQuery(data).find('svg');
+				//if(typeof imgID    !== 'undefined') { $svg = $svg.attr('id', imgID); }
+				//if(typeof imgClass !== 'undefined') { $svg = $svg.attr('class', imgClass + ' replaced-svg'); }
+				$svg = $svg.removeAttr('xmlns:a');
+				element.html($svg);
+				var paths = element[0].firstChild.children;
+				for (var i = 0; i < paths.length; i++) {
+					paths[i].setAttribute("fill", "#000000");
+				}
+			}, 'xml');
+		}
+	}
+});
