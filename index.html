@@ -7,6 +7,11 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="viewport" content="width=device-width"/>
 
+		<script
+					  src="https://code.jquery.com/jquery-3.2.1.js"
+					  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+					  crossorigin="anonymous"></script>
+
 		<!-- angularjs -->
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
 		<script src="blockfest.js"></script>
@@ -29,12 +34,12 @@
 
 	<body ng-app="blockfest" ng-controller="main">
 
-		<div id="nav-bar" class="{{color}}" ng-include="'nav.html'"></div>
-
 		<div id="container" class="{{color}}"><!--class defines background-color
 			-> other classes : "violet" or "lemon" or "raspberry" or "green" or "night"-->
 
 			<div ng-include="'flyer.html'"></div>
+
+			<div id="nav-bar" class="{{color}}" ng-include="'nav.html'"></div>
 
 			<div ng-include="'presentation.html'"></div>
 			<div ng-include="'programme.html'"></div>

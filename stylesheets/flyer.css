@@ -78,6 +78,13 @@
 	}
 }
 
+#flyer {
+	height: 100vh;
+	top: 0;
+	left: 0;
+	display: inline-block;
+}
+
 #bigBox {
 	width: 80vw;
 	display: flex;
