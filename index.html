@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le BlockFest 2.0</title>
+  </head>
+  
+  <style>
+    @font-face {
+      font-family: dos;
+      src: url(perfect-dos.ttf);
+    }
+    body {
+      font-family: dos;
+      background-color: black;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    #view {
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    #info {
+      width: 470px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      word-wrap: break-word;
+      text-align: center;
+    }
+    #title {
+      font-size: 2.5em;
+      text-align: left;
+    }
+    #text {
+      text-align: left;
+    }
+    .push-a-bit {
+      padding-left: 25px;
+    }
+  </style>
+  
+  <body>
+    <div id=view>
+      <div id=info>
+        <p id=title class=push-a-bit>
+          {brace} yourselves: <br> Le BlockFest 2.0 <br> is coming
+        </p>
+        <p id=hash></p>
+        <img src=https://media.giphy.com/media/3otOKlQbXcD80ayJ9e/giphy.gif
+             alt="the internet is unavailable">
+        <p id=text class=push-a-bit>rebuilding kernel ...</p>
+      </div>
+    </div>
+  </body>
+  
+  <script>
+    setInterval(() => {
+      let hash = '0x'
+      for (i of Array(40)) {
+        hash += '0123456789abcdef'.charAt(Math.floor(Math.random() * 16));
+      }
+      document.getElementById('hash').innerHTML = hash
+    }, 50)
+  
+    setInterval(() => {
+      if (document.getElementById('text').innerHTML.length > 42) {
+        document.getElementById('text').innerHTML = "rebuilding kernel ..."
+      } else {
+        document.getElementById('text').innerHTML += '.'
+      }
+    }, 100);
+  </script>
+  
+</html>
