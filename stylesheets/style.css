@@ -43,6 +43,10 @@ h3 {
 	text-align: center;
 	margin: unset;
 }
+h3.profils {
+	text-align: left;
+	padding-left: 7px;
+}
 h4 {
 	margin: unset;
 }

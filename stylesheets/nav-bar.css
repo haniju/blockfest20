@@ -47,14 +47,14 @@
 	/*height: 45px;*/
 	margin: auto;
 	background-color: black;
+	position: sticky;
+	top: 0px;
 }
-#nav-bar.raspberry #nav-bar.night #nav-bar.violet {
+#nav-bar.raspberry, #nav-bar.night, #nav-bar.violet {
 	background-color: black;
-	color: white;
 }
-#nav-bar.lemon, #nav-bar.mint #nav-bar.green {
+#nav-bar.lemon, #nav-bar.mint, #nav-bar.green {
 	background-color: white;
-	color: black;
 }
 #small-logo-slice {
 	display: flex;
@@ -96,8 +96,8 @@
 }
 #small-logo-slice.oleo {
 	font-family: 'Oleo Script', cursive;
-	font-size: 27px;
-	letter-spacing: 0.5px;
+	font-size: 22px;
+	letter-spacing: 2.2px;
 	font-weight: 400;
 }
 #small-logo-slice.bungee {

@@ -35,28 +35,27 @@
 	padding: 20px 20px 20px 20px;
 	margin: 15px 0px 45px 0px;
 }
-#regularBox.lemon .mint .green {
-	border-color: white;
+#regularBox.lemon, #regularBox.mint, #regularBox.green,
+#listBox.lemon, #listBox.mint, #listBox.green {
+	border-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0 0 3px rgba(255, 255, 255, 0.7);
 }
-#regularBox.raspberry .night .violet {
-	border-color: black;
+#regularBox.raspberry, #regularBox.night, #regularBox.violet,
+#listBox.raspberry, #listBox.night, #listBox.violet {
+	border-color: rgba(0, 0, 0, 0.7);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
 }
 #listBox {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 80vw;
+	width: 90vw;
 	border-style: solid;
 	border-width: 2px;
 	margin-bottom: 45px;
 }
-#listBox.lemon .mint .green {
-	border-color: white;
-}
-#listBox.raspberry .night .violet {
-	border-color: black;
-}
+
 /*special box*/
 .pictoBox {
 	width: 90px;

@@ -8,32 +8,32 @@
 
 }
 @media all and (max-width: 800px) and (min-width: 50px) {
-	.unica{
+	button .unica{
 		font-size: 20px !important;
 	}
-	.inconsolata{
+	button .inconsolata{
 		font-size: 25px;
 		letter-spacing: 1.7px;
 	}
-	.playfair{
+	button .playfair{
 		font-size: 16px !important;
 		letter-spacing: 1px !important;
 	}
-	.graduate{
+	button .graduate{
 		font-size: 20px !important;
 	}
-	.francois{
+	button .francois{
 		font-size: 18px !important;
 	}
-	.squada{
+	button .squada{
 		font-size: 20px !important;
 		letter-spacing: 1px !important;
 	}
-	.oleo{
+	button .oleo{
 		font-size: 25px !important;
 		letter-spacing: 2px !important;
 	}
-	.bungee{
+	button .bungee{
 		font-size: 24px !important;
 		letter-spacing: 1.3px !important;
 	}
@@ -82,52 +82,51 @@ button{
 	border-width: 2px;
 	border-color: white;
 }
-.unica{
+button .unica{
 	font-family: 'Unica One', cursive;
 	font-size: 20px;
 }
-.inconsolata{
+button .inconsolata{
 	font-family: 'Inconsolata', cursive;
 	font-size: 25px;
 	letter-spacing: 1.7px;
 }
-.playfair{
+button .playfair{
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
 	font-size: 21px;
 	letter-spacing: 2.2px;
-	line-height: 120px;
 }
-.graduate{
+button .graduate{
 	font-family: 'Graduate', cursive;
 	font-size: 23px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
-.francois{
+button .francois{
 	font-family: 'Francois One', sans-serif;
 	font-size: 23px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
-.squada{
+button .squada{
 	font-family: 'Squada One', cursive;
 	font-size: 30px;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 }
-.oleo{
-	font-family: 'Oleo Script', cursive;
+button .oleo{
+	font-family: 'Merienda One', cursive;
 	font-size: 25px;
 	letter-spacing: 2px;
 	font-weight: 400;
 }
-.bungee{
+button .bungee{
 	font-family: 'Bungee Inline', cursive;
 	font-size: 24px;
 	letter-spacing: 1.3px;
 }
-.oswald{
+button .oswald{
 	font-family: 'Oswald', sans-serif;
 	font-size: 25px;
 }

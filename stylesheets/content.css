@@ -8,11 +8,17 @@
 
 }
 @media all and (max-width: 800px) and (min-width: 50px) {
+	#flyer {
+		padding: 25px 0px !important;
+		height: auto;
+	}
 	#box-band {
 		padding: 15px 0px 15px 0px !important;
 	}
 	.pics-slice {
 		flex-direction: column !important;
+	}
+	.pic-slice {
 		max-width: 100% !important;
 	}
 	.pictoBox {
@@ -86,7 +92,7 @@
 .profil-slice {
 	display: flex;
 	flex-direction: row;
-	width: 300px;
+	width: 315px;
 	padding: 20px 20px 20px 20px;
 }
 .half-vslice {
@@ -151,7 +157,7 @@
 	letter-spacing: 1.5px;
 }
 #box-band.oleo{
-	font-family: 'Oleo Script', cursive;
+	font-family: 'Merienda One', cursive;
 	font-size: 25px;
 	letter-spacing: 2px;
 	font-weight: 400;

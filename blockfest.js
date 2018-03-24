@@ -1,3 +1,6 @@
+function reload() {
+    location.reload();
+}
 angular.module("blockfest", []);
 
 angular.module("blockfest").controller
