@@ -49,6 +49,7 @@
 	background-color: black;
 	position: sticky;
 	top: 0px;
+	z-index: 2;
 }
 #nav-bar.raspberry, #nav-bar.night, #nav-bar.violet {
 	background-color: black;

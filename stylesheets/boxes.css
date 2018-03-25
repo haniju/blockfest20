@@ -35,6 +35,12 @@
 	padding: 20px 20px 20px 20px;
 	margin: 15px 0px 45px 0px;
 }
+.programBox {
+	width: 70vw;
+	display: flex;
+	margin: 15px 0px 45px 0px;
+	position: relative;
+}
 #regularBox.lemon, #regularBox.mint, #regularBox.green,
 #listBox.lemon, #listBox.mint, #listBox.green {
 	border-color: rgba(255, 255, 255, 0.7);
