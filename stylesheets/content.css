@@ -8,18 +8,8 @@
 
 }
 @media all and (max-width: 800px) and (min-width: 50px) {
-	#flyer {
-		padding: 25px 0px !important;
-		height: auto;
-	}
 	#box-band {
 		padding: 15px 0px 15px 0px !important;
-	}
-	.pics-slice {
-		flex-direction: column !important;
-	}
-	.pic-slice {
-		max-width: 100% !important;
 	}
 	.pictoBox {
 		width: 70px !important;
@@ -37,18 +27,7 @@
 	}
 }
 
-.pics-slice {
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	background-color: black;
-}
-.pic-slice{
-	max-width: 50%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
+
 .half-slice {
 	width: 50%;
 	display: flex;
